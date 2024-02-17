@@ -6,7 +6,7 @@ class Gitty < Formula
 
     if Hardware::CPU.intel?
       url "https://github.com/chaewonkong/gitty/releases/download/v1.0.8/gitty-macos-intel.tar.gz"
-      sha256 "8b717523a9ddb548d2fd6009ca4f565160ece97f2d044e446f8c657e69fa75e8"
+      sha256 "51b731af9d08f0b02794ee3ef5c94a8a898647042076ede7c7d65897ebf07e31"
     elsif Hardware::CPU.arm?
       url "https://github.com/chaewonkong/gitty/releases/download/v1.0.8/gitty-macos-arm.tar.gz"
       sha256 "379e7d682337243b6eb14910de5005830deb79cd069c212f448598655cd47b75"
